@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'net.thonguyen'
+version '1.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.13-rc-2'
+}
